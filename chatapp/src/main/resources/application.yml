@@ -1,6 +1,4 @@
 spring:
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      database: chatdb
+      uri: mongodb://springuser:springpass@localhost:27017/springdb
